@@ -1,6 +1,6 @@
 # Body Debugger — release feed
 
-This repository holds release artifacts for the Body Debugger desktop app. Application source is kept in a separate private repository.
+This repository holds release artifacts for the Body Debugger desktop app. Application source lives in the public [proto0654/body-debugger](https://github.com/proto0654/body-debugger) repository.
 
 ## What a release contains
 
@@ -20,4 +20,4 @@ An installed application reads `latest.yml`, compares the version with its own, 
 
 ## Status
 
-Release automation is not wired up yet. Until then the repository holds an empty README only.
+Release automation is defined in the source repository. Stable and dev builds are built and uploaded by `scripts/publish-build.mjs`, locally or from the `release` workflow.
